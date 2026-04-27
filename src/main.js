@@ -53,7 +53,6 @@ class HelloScene extends Phaser.Scene {
   }
 
   handleHit() {
-    this.hero.animationState.setAnimation(0, 'Hit', false);
 
     this.add.text(
       this.scale.width / 2,
